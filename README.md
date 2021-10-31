@@ -12,14 +12,12 @@ Extract colors from an image like a human would do.
 Via Composer
 
 ``` bash
-$ composer require league/color-extractor:0.3.*
+composer require diggipacks-co/laravel-color-extractor
 ```
 
 ## Usage
 
 ```php
-require 'vendor/autoload.php';
-
 use League\ColorExtractor\Color;
 use League\ColorExtractor\ColorExtractor;
 use League\ColorExtractor\Palette;
@@ -45,6 +43,11 @@ $extractor = new ColorExtractor($palette);
 
 // it defines an extract method which return the most “representative” colors
 $colors = $extractor->extract(5);
+
+// get hex color from $colors
+foreach($colors as $color) {
+    echo dechex($color);
+}
 
 ```
 
