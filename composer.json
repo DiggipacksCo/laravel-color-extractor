@@ -1,5 +1,5 @@
 {
-    "name": "DiggipacksCo/laravel-color-extractor",
+    "name": "diggipacks-co/laravel-color-extractor",
     "type": "library",
     "description": "Extract colors from an image as a human would do.",
     "keywords": ["image", "color", "extract", "palette", "human"],
