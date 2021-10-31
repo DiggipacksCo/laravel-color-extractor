@@ -1,9 +1,9 @@
 {
-    "name": "league/color-extractor",
+    "name": "DiggipacksCo/laravel-color-extractor",
     "type": "library",
     "description": "Extract colors from an image as a human would do.",
     "keywords": ["image", "color", "extract", "palette", "human"],
-    "homepage": "https://github.com/thephpleague/color-extractor",
+    "homepage": "https://github.com/DiggipacksCo/laravel-color-extractor",
     "license": "MIT",
     "replace": {
         "matthecat/colorextractor": "*"
